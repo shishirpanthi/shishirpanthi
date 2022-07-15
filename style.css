@@ -1,0 +1,217 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  height: 12vh;
+  background-color: blue;
+  text-decoration: none;
+}
+
+.logo img {
+  height: 40px;
+  padding: 0%;
+  margin: 5px;
+}
+
+text-center {
+  text-align: center;
+}
+ 
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  float: right;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 20px;
+  transition: 1s;
+
+}
+
+nav ul li a:hover {
+  color: red;
+  margin-left: 10px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+main{
+  background-color: blue;
+}
+marquee{
+    background-color: rgb(165, 159, 42);
+  color: black;
+  text-decoration: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  background-image: url(ccr.jpg);
+  background-size: 100vmax;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+footer {
+  width: 100%;
+  height: 30%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .col{
+  /* margin-top: 150px; */
+  display: flex;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5% 0;
+
+}
+
+.col h3 {
+  position: relative;
+  color: blue;
+  margin-left: 2%;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.col h3:hover {
+  color: aqua
+}
+
+ul li {
+  text-align: left;
+  list-style: none;
+  margin-bottom: 10px;
+  ;
+}
+
+ul li a {
+  text-align: left;
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover {
+  color: rgb(219, 20, 20);
+}
+
+.Email {
+  color: white;
+  margin-top: 10px;
+  ;
+  text-align: center;
+  transition: 0.5sec;
+}
+
+.Email:hover {
+  color: greenyellow;
+}
+
+.phone {
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.phone:hover {
+  color: greenyellow;
+}
+
+.Address {
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  transition: 0.5sec;
+}
+
+.Address:hover {
+  color: greenyellow;
+}
+
+.copyright-information {
+  background-color: black;
+  position: relative;
+  text-align: right;
+  color: red;
+}
+
+
+.col-l {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.copyright-information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1% 0;
+  color: white;
+
+}
+
+footer {
+  padding: 1% 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info a {
+  padding: 10px;
+}
+
+li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.info {
+  width: 200px;
+  height: 186.8px;
+  display: grid;
+  place-items: center;
+}
+
+.ic-cl {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ic-cl a:hover{
+ color: white;
+}
+h3 {
+  transition: 0.5s;
+}
+
+h3:hover {
+  margin-left: 20px;
+}
